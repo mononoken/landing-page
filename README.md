@@ -1,0 +1,1 @@
+Create a landing page based on the criteria set forth in this project from The Odin Project. 
