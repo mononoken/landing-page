@@ -1,0 +1,70 @@
+:root {
+  --dark-bg-color: #1F2937;
+  --hero-main-txt-color: #F9FAF8;
+  --hero-secondary-txt-color: #E5E7EB;
+  --button-color: #3882F6;
+  --info-txt-color: #1F2937;
+  --quote-bg-color: #E5E7EB; 
+}
+
+html {
+  font-family: "Helvetica", sans-serif;
+}
+
+nav {
+  background-color: var(--dark-bg-color, #1F2937);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: var(--hero-main-txt-color, #F9FAF8);
+}
+
+nav ul {
+  font-size: 18px;
+  color: var(--hero-secondary-txt-color, #E5E7EB);
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.hero {
+  background-color: var(--dark-bg-color, #1F2937);
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.hero-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--hero-main-txt-color);
+  flex: 0 auto;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: var(--hero-secondary-txt-color, #E5E7EB);
+  flex: 0 auto;
+}
+
+.sign-up-btn {
+  background-color: var(--button-color, #3882F6);
+  color: var(--hero-main-txt-color, #F9FAF8); 
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 4px 16px;
+  border: none;
+  flex: none;
+}
