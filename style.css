@@ -36,6 +36,15 @@ nav ul {
   gap: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .hero {
   background-color: var(--dark-bg-color, #1F2937);
   display: flex;
@@ -142,6 +151,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 20px;
 }
 
 .call-to-action-title {
