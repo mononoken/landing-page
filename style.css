@@ -62,7 +62,7 @@ nav ul {
   flex: 0 auto;
 }
 
-.hero-description {
+.hero-descr {
   font-size: 18px;
   color: var(--hero-secondary-txt-color, #E5E7EB);
   flex: 0 auto;
@@ -118,4 +118,32 @@ nav ul {
   font-weight: 800;
   color: var(--info-txt-color, #1F2937);
   text-align: right;
+}
+
+.call-to-action-container {
+  margin: 60px 0;
+  padding: 40px 0;
+  background-color: var(--button-color, #3882F6);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.call-to-action-title {
+  color: var(--hero-main-txt-color, #F9FAF8);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.call-to-action-container .sign-up-btn {
+  border: solid;
+  border-width: 2px;
+  border-color: var(--hero-main-txt-color, #F9FAF8);
+}
+
+footer {
+  background-color: var(--dark-bg-color, #1F2937);
+  padding: 40px 0;
+  text-align: center;
 }
