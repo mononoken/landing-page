@@ -11,9 +11,13 @@ html {
   font-family: "Helvetica", sans-serif;
 }
 
+body {
+  background-color: var(--hero-main-txt-color, #F9FAF8);
+}
+
 nav {
   background-color: var(--dark-bg-color, #1F2937);
-  padding: 20px 0;
+  padding: 20px 100px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -37,7 +41,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 0;
+  padding: 80px 100px;
   gap: 50px;
 }
 
@@ -81,7 +85,7 @@ nav ul {
 .random-info-container {
   background-color: var(--hero-main-txt-color, #F9FAF8);
   text-align: center;
-  padding: 60px 0;
+  padding: 60px 100px;
 }
 
 .random-info-container h1 {
@@ -99,12 +103,13 @@ nav ul {
 
 .random-info-card-descr {
   font-size: 18px;
+  max-width: 170px;
   color: var(--info-txt-color, #1F2937);
 }
 
 .quote-container {
   background-color: var(--quote-bg-color, #E5E7EB);
-  padding: 100px 0;
+  padding: 100px 100px;
 }
 
 .quote-txt {
@@ -121,8 +126,8 @@ nav ul {
 }
 
 .call-to-action-container {
-  margin: 60px 0;
-  padding: 40px 0;
+  margin: 60px 100px;
+  padding: 40px 100px;
   background-color: var(--button-color, #3882F6);
   border-radius: 8px;
   display: flex;
