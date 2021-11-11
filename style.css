@@ -101,6 +101,15 @@ nav ul {
   gap: 50px;
 }
 
+.random-info-cards img {
+  width: 170px;
+  height: 170px;
+  border: solid;
+  border-color: var(--button-color, #3882F6);
+  border-width: 4px;
+  border-radius: 16px;
+}
+
 .random-info-card-descr {
   font-size: 18px;
   max-width: 170px;
